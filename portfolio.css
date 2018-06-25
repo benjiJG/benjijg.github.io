@@ -45,12 +45,12 @@ body, html {
   stroke: #C81D24;
   stroke-width: 5px;
   fill: transparent;
-  stroke-dasharray: 393;
-  stroke-dashoffset: 393;
+  stroke-dasharray: 500px;
+  stroke-dashoffset: 500px;
   Animation: animate 1s infinite 0s alternate;
 }
 
 @keyframes animate {
-  from {stroke-dashoffset: 393}
-  to{stroke-dashoffset: 0}
+  from {stroke-dashoffset: 500px}
+  to{stroke-dashoffset: 0px}
 }

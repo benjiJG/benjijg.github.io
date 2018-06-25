@@ -40,3 +40,17 @@ body, html {
         background-attachment: scroll;
     }
 }
+
+#logo:hover {
+  stroke: #C81D24;
+  stroke-width: 5px;
+  fill: transparent;
+  stroke-dasharray: 393;
+  stroke-dashoffset: 393;
+  Animation: animate 1s infinite 0s alternate;
+}
+
+@keyframes animate {
+  from {stroke-dashoffset: 393}
+  to{stroke-dashoffset: 0}
+}

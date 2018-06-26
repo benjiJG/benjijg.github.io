@@ -92,15 +92,18 @@ html {
 	fill: #af1d24;
 }
 
-.arrow {
+.arrow-down {
 	color: #ededed;
 	text-decoration: none;
   text-align: center;
-  margin: 8% 0;
+	padding-top: 4%;
 }
 
-.logo {
-	padding-top: 8%;
+.arrow-up {
+	color: #ededed;
+	text-decoration: none;
+  text-align: center;
+	padding-bottom: 4%;
 }
 
 #logo:hover {

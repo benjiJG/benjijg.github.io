@@ -1,0 +1,117 @@
+/* Typography */
+
+html {
+	font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width: 576px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 992px) {
+	html {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 1200px) {
+	html {
+		font-size: 20px;
+	}
+}
+
+.icons-social i {
+	font-size: 3em;
+}
+
+/* Custom Styles */
+
+.pane {
+	background: #EDEDED;
+	color: #af1d24;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: center;
+	text-align: center;
+}
+
+.intro {
+	padding-top: 75px;
+	font-family: 'Reem Kufi', sans-serif;
+	font-size: 4em;
+	font-weight: 600;
+}
+
+.tagline {
+	font-size: 1.75rem;
+	margin: 1.75rem 0;
+	font-weight: 100;
+}
+
+#pane1 {
+	background: url('../assets/desk-background.jpeg');
+	background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	text-shadow: 0 0 3px #EDEDED;
+}
+
+.icons-social i {
+	padding: 10px;
+}
+
+.icons-social a {
+	color: #af1d24;
+}
+
+.icons-social a svg path{
+	fill: #af1d24;
+}
+
+.arrow {
+	color: #EDEDED;
+	text-decoration: none;
+  text-align: center;
+  margin: 8% 0;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+#logo:hover {
+  stroke: #af1d24;
+  stroke-width: 5px;
+  fill: transparent;
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  Animation: animate 1s infinite 0s alternate;
+}
+
+@keyframes animate {
+  from {stroke-dashoffset: 500}
+  to{stroke-dashoffset: 0}
+}

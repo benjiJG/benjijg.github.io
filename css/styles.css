@@ -35,7 +35,7 @@ html {
 /* Custom Styles */
 
 .pane {
-	background: #EDEDED;
+	background: #ededed;
 	color: #af1d24;
 	display: flex;
 	flex-direction: column;
@@ -45,7 +45,7 @@ html {
 }
 
 .intro {
-	padding-top: 75px;
+	padding-top: 35px;
 	font-family: 'Reem Kufi', sans-serif;
 	font-size: 4em;
 	font-weight: 600;
@@ -57,13 +57,27 @@ html {
 	font-weight: 100;
 }
 
-#pane1 {
+.divider {
+		border-top: 10px solid #af1d24;
+}
+
+#portfolio {
+	background: #cccccc;
+
+}
+
+#home {
 	background: url('../assets/desk-background.jpeg');
 	background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-	text-shadow: 0 0 3px #EDEDED;
+	text-shadow: 0 0 3px #ededed;
+}
+
+#about {
+	background: #cccccc;
+
 }
 
 .icons-social i {
@@ -79,10 +93,14 @@ html {
 }
 
 .arrow {
-	color: #EDEDED;
+	color: #ededed;
 	text-decoration: none;
   text-align: center;
   margin: 8% 0;
+}
+
+.logo {
+	padding-top: 8%;
 }
 
 #logo:hover {

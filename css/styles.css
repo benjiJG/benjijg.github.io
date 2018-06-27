@@ -113,11 +113,18 @@ html {
 	opacity: 0.75;
 }
 
-.home-button {
-	color: #ededed;
-	text-decoration: none;
+.navigation {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
 	position: fixed;
 	padding: 10px;
+}
+
+.navigation a {
+	padding-top: 10px;
+	color: #ededed;
+	text-decoration: none;
 	opacity: 0.75;
 }
 

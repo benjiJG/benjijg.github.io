@@ -52,7 +52,7 @@ html {
 .tagline {
 	font-size: 1.75rem;
 	margin: 1.75rem 0;
-	font-weight: 100;
+	font-weight: 150;
 	color: #ededed;
 }
 
@@ -90,6 +90,7 @@ html {
 
 .icons-social a {
 	color: #af1d24;
+	opacity: 0.75;
 }
 
 .icons-social a svg path{
@@ -118,6 +119,11 @@ html {
 	position: fixed;
 	padding: 10px;
 	opacity: 0.75;
+}
+
+.icon:hover {
+	color: #af1d24;
+	opacity: 1;
 }
 
 #logo:hover {

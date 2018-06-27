@@ -126,6 +126,7 @@ html {
 	color: #ededed;
 	text-decoration: none;
 	opacity: 0.75;
+	text-shadow: 0 0 3px #36454f;
 }
 
 .icon:hover {

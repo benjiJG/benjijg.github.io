@@ -11,6 +11,8 @@ $(document).ready(function(){
       });
     }
   });
+
+  // Add functionality for slider
 });
 
 $(window).on('load', function() {

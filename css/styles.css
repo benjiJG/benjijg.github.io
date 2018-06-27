@@ -80,7 +80,6 @@ html {
 
 #about {
 	background: #cccccc;
-
 }
 
 .icons-social i {
@@ -127,6 +126,10 @@ html {
 	text-decoration: none;
 	opacity: 0.75;
 	text-shadow: 0 0 3px #36454f;
+}
+
+.pf-img {
+	width: 50%;
 }
 
 .icon:hover {

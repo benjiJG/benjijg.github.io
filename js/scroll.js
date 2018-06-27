@@ -13,6 +13,8 @@ $(document).ready(function(){
   });
 });
 
-window.onload = function() {
+$(window).on('load', function() {
   document.getElementById('home').scrollIntoView();
-};
+  // Initialise page to home pane
+  $('#home-button').trigger('click');
+});

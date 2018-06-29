@@ -2,6 +2,7 @@
 
 html {
 	font-family: 'Roboto Mono', monospace;
+	overflow: hidden;
 }
 
 @media (min-width: 576px) {
@@ -65,7 +66,7 @@ html {
 }
 
 #portfolio {
-	background: #cccccc;
+	background: #d8d8d8;
 
 }
 
@@ -79,7 +80,7 @@ html {
 }
 
 #about {
-	background: #cccccc;
+	background: #d8d8d8;
 }
 
 .icons-social i {

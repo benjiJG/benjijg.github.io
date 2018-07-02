@@ -230,3 +230,8 @@ p{
 	-moz-border-radius:3px;
 	-webkit-border-radius:3px;
 }
+
+#Layer_1 {
+  display: block;
+  margin: 0 auto;
+}

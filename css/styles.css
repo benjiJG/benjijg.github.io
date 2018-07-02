@@ -160,7 +160,7 @@ html {
 
 
 .skills {
-	width:30%;
+	width: 800px;
 	padding: 1%;
 }
 
@@ -229,15 +229,4 @@ p{
 	border-radius:3px;
 	-moz-border-radius:3px;
 	-webkit-border-radius:3px;
-}
-
-.skill-bar-percent {
-	position:absolute;
-	right:10px;
-	top:0;
-	font-size:11px;
-	height:35px;
-	line-height:35px;
-	color:#ffffff;
-	color:rgba(0, 0, 0, 0.4);
 }

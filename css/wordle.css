@@ -69,6 +69,8 @@ body {
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
   .row {
+    display: flex;
+    align-items: center;
     -webkit-flex-direction: column;
     flex-direction: column;
   }

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>The Road to 30</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,600,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/roadto30.css">
+</head>
+<body>
+	<header class="site-header">
+		<h1>The Road to 30</h1>
+		<a class="home" href="index.html">&larr; home</a>
+	</header>
+
+	<div class="controls">
+		<div class="readout">
+			<span class="date" id="readout-date">&mdash;</span>
+			<span class="count" id="readout-count">&mdash;</span>
+		</div>
+		<input type="range" id="scrubber" aria-label="Scrub through the year">
+		<button id="today-btn" type="button">Today</button>
+		<button id="play-btn" type="button">&#9654; Play the year</button>
+		<span class="hint">
+			Drag the slider (or press play) to drive the happiness bus through the year and watch each of the boys getting off at their stop and entering the final chapter.
+		</span>
+	</div>
+
+	<main class="stage" id="stage"></main>
+
+	<script src="https://cdn.jsdelivr.net/npm/p5@1.9.4/lib/p5.min.js"></script>
+	<script src="js/roadto30.js"></script>
+</body>
+</html>
